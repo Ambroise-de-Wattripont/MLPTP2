@@ -37,6 +37,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    - name: test
+    - name: Test with unittest
       run : |
         python -m unittest
